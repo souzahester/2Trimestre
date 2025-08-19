@@ -1,16 +1,41 @@
-<!DOCTYPE html>
-<HTML lingua="pr-br".
-<cabeça>
- <meta conjunto de caracteres="UTF-8>
- <nemta name="viewport" content="widt=largura-do-dispositivo, escala-inicial
-   <título>Flashcadr</tútulo>
-   </cabeça>
-     <corpo>
- <principal>
-     <seção>
-      </principal>
-<rodapé>
-<<p>Projeto desenvolvido pela Alura< sem fins lucrativos</p>
-</rodapé>
-</corpo.
-</HTML>
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   ‹meta charset="UTF-8">
+   ‹meta name="viewport" content="width=device width, initial-scarle=0.1"> 
+   <link rel+"stylesheet" href="assets/style.css"
+  ‹title>FlashCard</title>
+</head>
+‹body> 
+       <main>
+      <section id="container">
+   <article class="cartao">
+    <div class="cartao__conteudo">
+       <h3>Programação</h3>
+      <div class="cartao__conteudo__pergunta">
+          O que é CSS?
+           </div>
+     <div class="cartao__conteudo__resposta">
+       O CSS é uma linguagem de estilização
+      </div>
+   </div>
+    </article>
+</section
+  <main>  
+   <Footer>
+    <p>Projeto desenvolvido pela Alura, sem fins lucrativos </p>
+  <Footer>
+</body> 
+ </html>
+
+body{
+   background-color:  bisque;
+
+}
+footer{
+  background-color:  black;
+color: white;
+position: fixed; 
+bottom: 0;
+width: 100%;
+}
